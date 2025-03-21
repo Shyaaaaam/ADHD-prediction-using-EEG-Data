@@ -1,0 +1,8 @@
+Preprocessing:
+Notch filtering (50,60hz)
+Band pass filtering (1-47hz)
+Spike clipping (to prevent muscle artifacts and blinks)
+ICA based feature exclusion (weighted with metrics from kurtosis)
+Normalization
+
+Feature extraction:
