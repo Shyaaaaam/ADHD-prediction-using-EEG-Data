@@ -1,0 +1,10 @@
+In our current work we are focused on understanding the fundamental signalling differences observed in EEG and where it stems from and how it can be used to accurately predict ADHD. 
+By analyzing the EEG data through various aspects:
+Time domain features: Morlet Wavelet, Hurst exponent, zcr, Hjorth etc.
+Spectral Features: Phase amplitude coupling, engagement index, alpha/beta/theta power, tbr etc
+global featuers: microstate features
+Inter channel features: Coherence, Alpha asymmetry
+
+We use SHAP based feature selection to identify which features are of importance and use ANOVA to further statistically calculate the most siginificant features which are fed 
+into the CATBOOST model for prediction. We are also working on employing SHAP at the output level to interpret the core meaning of our results and make fundamental predictions
+about the characteristics of EEG contributing to ADHD, which can further help pinpoint the exact signalling defects in ADHD and its relative source.
