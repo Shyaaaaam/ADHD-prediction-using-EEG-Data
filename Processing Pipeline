@@ -6,3 +6,13 @@ ICA based feature exclusion (weighted with metrics from kurtosis)
 Normalization
 
 Feature extraction:
+Time domain features: Morlet Wavelet, Hurst exponent, zcr, Hjorth etc.
+Spectral Features: Phase amplitude coupling, engagement index, alpha/beta/theta power, tbr etc
+global featuers: microstate features
+Inter channel features: Coherence, Alpha asymmetry
+
+Feature Selection:
+SHAP --> ANOVA --> PCA
+
+Model Training: CATBOOST vs XGBOOST vs RF ( currently looking into stacked ensemble methods)
+Result interpretation and analysis using SHAP 
